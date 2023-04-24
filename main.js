@@ -6,7 +6,7 @@ function createWindow () {
     height: 800
   })
 
-  // TODO: Replace 'electron-with-angular-app-template' with name of app.
+  // TODO: Replace 'electron-with-angular-app-template' with name of app. Do a search to find other areas to replace.
   win.loadFile('dist/electron-with-angular-app-template/index.html')
 }
 
