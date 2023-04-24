@@ -10,6 +10,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+## Update project name reference/s
+
+In `package.json`, replace any references to `angular-project-template` with the name of the new project. In `angular.json` (projects > AngularProjectTemplate > architect > build > options > outputPath) replace reference to `angular-project-template` with the name of the new project. In `index.html`, replace title tag's name, `AngularProjectTemplate`, with the name of the new project.
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
